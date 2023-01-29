@@ -12,7 +12,7 @@ services:
       - flask
 
   flask:
-    image: "ermolovichmz/flask:3.0"
+    image: "ermolovichmz/flask:1.0"
     container_name: flask
     environment:
       - FLASK_DEBUG=True
